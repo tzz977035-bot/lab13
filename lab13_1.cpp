@@ -19,3 +19,16 @@ int main(){
     cout << "Min = " << B[5];
     return 0;
 }
+double mean = sum / N;
+    B[0] = mean;
+
+    B[1] = sqrt((sumSq / N) - (mean * mean));
+
+    B[2] = exp(productLog / N);
+
+    B[3] = N / reciprocalSum;
+
+    B[4] = maxVal;
+
+    B[5] = minVal;
+}
